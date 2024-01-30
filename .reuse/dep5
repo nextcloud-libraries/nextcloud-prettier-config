@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nextcloud-prettier-config
+Upstream-Contact: Ferdinand Thiessen <opensource@fthiessen.de>
+Source: https://github.com/nextcloud-libraries/nextcloud-prettier-config
+
+Files: package-lock.json package.json
+Copyright: Nextcloud contributors
+License: BSD-3-Clause

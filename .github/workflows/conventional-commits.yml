@@ -1,0 +1,23 @@
+# This workflow is provided via the organization template repository
+#
+# https://github.com/nextcloud/.github
+# https://docs.github.com/en/actions/learn-github-actions/sharing-workflows-with-your-organization
+# SPDX-FileCopyrightText: Nextcloud contributors
+# SPDX-License-Identifier: CC0-1.0
+
+name: Conventional Commits
+
+on:
+  pull_request:
+    branches: [ 'main' , 'stable*' ]
+
+jobs:
+  build:
+    name: Conventional Commits
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - uses: webiny/action-conventional-commits@8bc41ff4e7d423d56fa4905f6ff79209a78776c7 # v1.3.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
