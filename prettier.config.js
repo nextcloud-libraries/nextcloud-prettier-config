@@ -32,5 +32,13 @@ export default {
 				useTabs: false,
 			},
 		},
+		// For GitHub workflow files we use 2 spaces
+		{
+			files: ['.github/**/*.yml'],
+			options: {
+				tabWidth: 2,
+				useTabs: false,
+			},
+		},
 	],
 }
