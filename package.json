@@ -22,7 +22,8 @@
     "default": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "npx prettier -c prettier.config.js index.js prettier.config.js package.json",
+    "format:fix": "npx prettier -c prettier.config.js -w index.js prettier.config.js package.json"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
