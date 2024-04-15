@@ -22,8 +22,8 @@
     "default": "./index.js"
   },
   "scripts": {
-    "format": "npx prettier -c prettier.config.js index.js prettier.config.js package.json",
-    "format:fix": "npx prettier -c prettier.config.js -w index.js prettier.config.js package.json"
+    "format": "npx prettier -c prettier.config.js .",
+    "format:fix": "npx prettier -c prettier.config.js --write ."
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
