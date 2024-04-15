@@ -6,8 +6,8 @@ Moreover ESLint and StyleLint both deprecate and remove stylistic rules, as a re
 
 ## Setup
 ### Prepare ESLint
-If you are using ESLint you should enable the `eslint-config-prettier` configuration which disables all ESLint rules that conflict with Prettier,
-a detailed description can be found here: [github.com/prettier/eslint-config-prettier](https://github.com/prettier/eslint-config-prettier?tab=readme-ov-file#installation).
+If you are using ESLint you should enable the `eslint-config-prettier` configuration which disables all ESLint rules that conflict with Prettier.
+A detailed description can be found here: [github.com/prettier/eslint-config-prettier](https://github.com/prettier/eslint-config-prettier?tab=readme-ov-file#installation).
 
 In short, this should be your ESLint config:
 ```json
@@ -20,7 +20,7 @@ In short, this should be your ESLint config:
 ```
 
 ### Prepare StyleLint
-Stylelint already removed all stylistic rules, so make sure to use `@nextcloud/stylelint-config` 3+ together with `stylelint` 16+.
+Stylelint already removed all stylistic rules, so make sure to use `@nextcloud/stylelint-config` **3+** together with `stylelint` 16+.
 
 ### Configure Prettier
 Install this configuration using:
