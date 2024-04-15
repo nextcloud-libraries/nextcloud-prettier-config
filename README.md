@@ -19,6 +19,24 @@ In short, this should be your ESLint config:
 }
 ```
 
+If you still get errors about Vue files, you need to adjust your ESLint config like the following:
+*(this will be fixed once the Nextcloud ESLint config support flat configs)*
+
+```json
+"extends": [
+		"@nextcloud",
+		"prettier"
+	],
+	"overrides": [
+		{
+			"files": ["**/*.vue"],
+			"rules": {
+				"vue/first-attribute-linebreak": "off"
+			}
+		}
+	]
+```
+
 ### Prepare StyleLint
 Stylelint already removed all stylistic rules, so make sure to use `@nextcloud/stylelint-config` **3+** together with `stylelint` 16+.
 
