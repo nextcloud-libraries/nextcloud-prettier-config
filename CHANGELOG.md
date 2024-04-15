@@ -10,3 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 -   Implemented first version of Nextcloud prettier config.
+
+<!--
+  SPDX-FileCopyrightText: 2024 Nextcloud contributors
+  SPDX-License-Identifier: CC0-1.0
+-->
