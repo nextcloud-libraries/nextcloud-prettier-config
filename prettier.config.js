@@ -20,8 +20,8 @@ export default {
 	arrowParens: 'always',
 	// Always enfore a trailing comma
 	trailingComma: 'all',
-	// This is not a hard limit! We need 90 to keep changes from ESLint migration small
-	printWidth: 90,
+	// This is not a hard limit! We need 95 to keep changes from ESLint migration small
+	printWidth: 95,
 
 	overrides: [
 		// For package.json we need other indention as Node decided to only support spaces, so otherwise it would be reformatted on every npm install
