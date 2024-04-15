@@ -68,6 +68,26 @@ Or in a dedicated `.prettierrc.json`:
 "@nextcloud/prettier-config"
 ```
 
+You should create a `.prettierignore` file in your project root to allow simply using `prettier .` or `prettier --write .`, the format is very similar to `.gitignore`. For a Nextcloud app the file could look like this:
+
+```shell
+# version control systems directories
+**/.git
+**/.svn
+**/.hg
+
+# 3rdparty dependencies
+**/node_modules
+**/vendor
+
+# Compiled JS output
+js/
+
+# PHP
+lib/
+**/*.php
+```
+
 <!--
   SPDX-FileCopyrightText: 2024 Nextcloud contributors
   SPDX-License-Identifier: CC0-1.0
