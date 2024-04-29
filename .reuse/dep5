@@ -5,4 +5,4 @@ Source: https://github.com/nextcloud-libraries/nextcloud-prettier-config
 
 Files: package-lock.json package.json
 Copyright: Nextcloud contributors
-License: BSD-3-Clause
+License: MIT

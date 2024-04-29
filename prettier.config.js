@@ -1,6 +1,6 @@
 /**
  * SPDX-FileCopyrightText: 2024 Ferdinand Thiessen <opensource@fthiessen.de>
- * SPDX-License-Identifier: BSD-3-Clause
+ * SPDX-License-Identifier: MIT
  */
 
 /**
