@@ -2,8 +2,10 @@
   "name": "@nextcloud/prettier-config",
   "version": "1.0.0",
   "description": "Shared stylistic rules for Nextcloud apps and libraries",
-  "author": "Ferdinand Thiessen",
-  "license": "MIT",
+  "keywords": [
+    "Nextcloud",
+    "prettier"
+  ],
   "homepage": "https://github.com/nextcloud-libraries/nextcloud-prettier-config#readme",
   "bugs": {
     "url": "https://github.com/nextcloud-libraries/nextcloud-prettier-config/issues"
@@ -12,23 +14,24 @@
     "type": "git",
     "url": "git+https://github.com/nextcloud-libraries/nextcloud-prettier-config.git"
   },
-  "keywords": [
-    "Nextcloud",
-    "prettier"
-  ],
+  "license": "MIT",
+  "author": "Ferdinand Thiessen",
   "type": "module",
-  "main": "index.js",
   "exports": {
     "default": "./index.js"
   },
+  "main": "index.js",
   "scripts": {
     "format": "npx prettier -c prettier.config.js .",
     "format:fix": "npx prettier -c prettier.config.js --write ."
   },
-  "peerDependencies": {
-    "prettier": ">=3.0.0"
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.5.0"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
   }
 }

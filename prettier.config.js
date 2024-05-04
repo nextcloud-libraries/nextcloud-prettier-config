@@ -23,6 +23,12 @@ export default {
 	// This is not a hard limit! We need 85 to keep changes from ESLint migration small
 	printWidth: 85,
 
+	// Some additional rules
+	plugins: [
+		// Make package.json consistent
+		'prettier-plugin-packagejson',
+	],
+
 	overrides: [
 		// For package.json we need other indention as Node decided to only support spaces, so otherwise it would be reformatted on every npm install
 		{
