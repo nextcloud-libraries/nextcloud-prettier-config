@@ -1,5 +1,7 @@
 # Nextcloud Prettier configuration
 
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud-libraries/nextcloud-prettier-config)](https://api.reuse.software/info/github.com/nextcloud-libraries/nextcloud-prettier-config)
+
 This provides a shared configuration for Nextcloud apps and libraries to have consistent stylistic rules.
 Using stylistic rules in linters is not recommended as linters are for finding bugs while prettier is for code style.
 Moreover ESLint and StyleLint both deprecate and remove stylistic rules, as a replacement using Prettier is recommended.
