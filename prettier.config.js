@@ -18,10 +18,12 @@ export default {
 	singleQuote: true,
 	// Enforce parenthesis for arrow functions
 	arrowParens: 'always',
-	// Always enfore a trailing comma
+	// Always enforce a trailing comma
 	trailingComma: 'all',
 	// This is not a hard limit! We need 85 to keep changes from ESLint migration small
 	printWidth: 85,
+	// Operators should always be on the start
+	experimentalOperatorPosition: 'start',
 
 	// Some additional rules
 	plugins: [
