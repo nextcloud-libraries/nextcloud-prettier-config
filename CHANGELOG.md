@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v1.2.0 - 2025-04-09
 
+### Added
 - Correctly set the operator to the front of a line:
 
 ```diff
@@ -25,6 +26,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 +    || other
  ) {
 ```
+
+### Changed
+- Require at least prettier 3.5.0
+- Migrate REUSE to TOML format
 
 ## v1.1.0 - 2024-05-04
 
